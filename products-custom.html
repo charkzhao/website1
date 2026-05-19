@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>定制服务 - 中优粮集团</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600&family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+<style>
+.dropdown { position: relative; display: inline-block; }
+.dropdown-content { display: none; position: absolute; top: 100%; left: 0; background: #fff; min-width: 180px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); z-index: 100; padding: 8px 0; }
+.dropdown-content a { display: block; padding: 10px 20px; font-size: 14px; color: #555; border-bottom: none !important; }
+.dropdown-content a:hover { background: #F3EDE4; color: #B85C38; }
+.dropdown:hover .dropdown-content { display: block; }
+@media (max-width: 1024px) { .dropdown-content { position: static; box-shadow: none; display: none; } .dropdown-content.active { display: block; } }
+</style>
+</head>
+<body>
+<nav class="navbar scrolled">
+  <div class="navbar-inner page-padding">
+    <a href="index.html" class="nav-logo"><img src="./images/logo.png" alt="中优粮"></a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">首页</a>
+      <div class="dropdown">
+        <a href="about.html">集团概览</a>
+        <div class="dropdown-content">
+          <a href="about.html">企业简介</a>
+          <a href="history.html">发展历程</a>
+          <a href="culture.html">企业文化</a>
+          <a href="honors.html">荣誉资质</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a href="products-medicine.html">产品中心</a>
+        <div class="dropdown-content">
+          <a href="products-medicine.html">药食同源</a>
+          <a href="products-grain.html">功能性粮油</a>
+          <a href="products-organic.html">有机农产品</a>
+          <a href="products-custom.html">定制服务</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a href="news.html">新闻资讯</a>
+        <div class="dropdown-content">
+          <a href="news.html">集团新闻</a>
+          <a href="news.html">行业动态</a>
+          <a href="news.html">媒体报道</a>
+          <a href="news.html">展会活动</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a href="cooperation.html">商务合作</a>
+        <div class="dropdown-content">
+          <a href="cooperation.html">招商加盟</a>
+          <a href="supplier.html">供应商入口</a>
+          <a href="contact.html">联系方式</a>
+          <a href="feedback.html">投诉建议</a>
+        </div>
+      </div>
+    </div>
+    <a href="cooperation.html" class="btn-primary nav-btn" style="margin-left:24px;">商务合作</a>
+    <button class="mobile-toggle" onclick="document.getElementById('navLinks').classList.toggle('active')">&#9776;</button>
+  </div>
+</nav>
+<section style="background:#1A2E26;padding:120px 0 80px;text-align:center;">
+  <div class="page-padding">
+    <span style="color:rgba(212,175,55,0.7);font-size:12px;letter-spacing:0.15em;display:block;margin-bottom:16px;">定制服务</span>
+    <h1 class="font-display" style="font-size:clamp(2rem,4.5vw,3.5rem);color:#FAF7F2;margin-bottom:20px;">定制服务</h1>
+    <p style="color:rgba(250,247,242,0.65);max-width:600px;margin:0 auto;font-size:15px;">依托全产业链优势，为企业客户提供一站式的农产品定制解决方案。</p>
+  </div>
+</section>
+<section class="section bg-parchment page-padding">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-16">
+      <span class="section-label">Custom Solutions</span>
+      <h2 class="section-title">四大定制服务</h2>
+      <p class="section-subtitle">依托全产业链优势，为企业客户提供一站式的农产品定制解决方案。</p>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:40px;">
+      <div class="bg-white" style="border:1px solid rgba(0,0,0,0.06);overflow:hidden;">
+        <div style="display:flex;flex-direction:column;">
+          <div class="bg-parchment-dark p-10"><div style="font-size:28px;color:#B85C38;margin-bottom:16px;">&#9733;</div><h3 class="font-display text-xl">企业定制礼盒</h3></div>
+          <div class="p-10">
+            <p class="text-gray text-sm leading-relaxed mb-6">根据企业需求，量身定制高端农产品礼盒。可选配药食同源滋补品、有机粮油、特色干货等，支持品牌LOGO定制、贺卡代写、批量配送一站式服务。</p>
+            <div style="display:flex;flex-wrap:wrap;gap:12px;">
+              <span class="px-4 py-2 text-xs bg-parchment-dark text-gray">春节年货礼盒</span>
+              <span class="px-4 py-2 text-xs bg-parchment-dark text-gray">中秋团圆礼盒</span>
+              <span class="px-4 py-2 text-xs bg-parchment-dark text-gray">商务馈赠礼盒</span>
+              <span class="px-4 py-2 text-xs bg-parchment-dark text-gray">员工福利礼盒</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white" style="border:1px solid rgba(0,0,0,0.06);overflow:hidden;">
+        <div style="display:flex;flex-direction:column;">
+          <div class="bg-parchment-dark p-10"><div style="font-size:28px;color:#B85C38;margin-bottom:16px;">&#9874;</div><h3 class="font-display text-xl">政企集采供应</h3></div>
+          <div class="p-10">
+            <p class="text-gray text-sm leading-relaxed mb-6">为政府机关、企事业单位、学校食堂提供稳定的农产品集中采购服务。支持长期协议供货、按月配送、账期结算等灵活合作模式。</p>
+            <div style="display:flex;flex-wrap:wrap;gap:12px;">
+              <span class="px-4 py-2 text-xs bg-parchment-dark text-gray">机关食堂配送</span>
+              <span class="px-4 py-2 text-xs bg-parchment-dark text-gray">学校营养餐供应</span>
+              <span class="px-4 py-2 text-xs bg-parchment-dark text-gray">企业食堂承包</span>
+              <span class="px-4 py-2 text-xs bg-parchment-dark text-gray">应急物资储备</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white" style="border:1px solid rgba(0,0,0,0.06);overflow:hidden;">
+        <div style="display:flex;flex-direction:column;">
+          <div class="bg-parchment-dark p-10"><div style="font-size:28px;color:#B85C38;margin-bottom:16px;">&#9749;</div><h3 class="font-display text-xl">餐饮渠道专供</h3></div>
+          <div class="p-10">
+            <p class="text-gray text-sm leading-relaxed mb-6">为连锁餐饮、高端酒店、月子中心等餐饮渠道提供定制化原料供应。支持大规格包装、特殊配方定制、稳定品质输出。</p>
+            <div style="display:flex;flex-wrap:wrap;gap:12px;">
+              <span class="px-4 py-2 text-xs bg-parchment-dark text-gray">高端酒店专供油</span>
+              <span class="px-4 py-2 text-xs bg-parchment-dark text-gray">连锁餐饮定制米</span>
+              <span class="px-4 py-2 text-xs bg-parchment-dark text-gray">月子中心营养餐</span>
+              <span class="px-4 py-2 text-xs bg-parchment-dark text-gray">预制菜原料供应</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white" style="border:1px solid rgba(0,0,0,0.06);overflow:hidden;">
+        <div style="display:flex;flex-direction:column;">
+          <div class="bg-parchment-dark p-10"><div style="font-size:28px;color:#B85C38;margin-bottom:16px;">&#9829;</div><h3 class="font-display text-xl">健康方案定制</h3></div>
+          <div class="p-10">
+            <p class="text-gray text-sm leading-relaxed mb-6">联合营养专家团队，为企业VIP客户、高端会员提供个性化健康膳食方案。包含低GI主食、功能性食用油、滋补品搭配等全方位解决方案。</p>
+            <div style="display:flex;flex-wrap:wrap;gap:12px;">
+              <span class="px-4 py-2 text-xs bg-parchment-dark text-gray">控糖人群方案</span>
+              <span class="px-4 py-2 text-xs bg-parchment-dark text-gray">减脂人群方案</span>
+              <span class="px-4 py-2 text-xs bg-parchment-dark text-gray">中老年养生方案</span>
+              <span class="px-4 py-2 text-xs bg-parchment-dark text-gray">亚健康调理方案</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:#1A2E26;padding:80px 0;">
+  <div class="page-padding">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="font-display text-2xl text-white mb-4">开启您的定制方案</h2>
+      <p style="color:rgba(250,247,242,0.6);font-size:15px;margin-bottom:32px;">联系我们的专属客户经理，获取一对一的定制服务方案</p>
+      <a href="contact.html" class="btn-primary">立即咨询</a>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="page-padding py-20">
+    <div class="max-w-5xl mx-auto">
+      <div class="flex flex-col lg:flex-row items-start justify-between gap-10 mb-16">
+        <div class="max-w-sm">
+          <img src="./images/logo.png" alt="中优粮" style="height:40px;margin-bottom:20px;opacity:0.8;">
+          <p style="color:rgba(250,247,242,0.45);font-size:14px;line-height:1.8;">
+            中优粮集团是一家深耕农产品全产业链的大型综合服务商，致力于构建从田间到餐桌的品质保障体系。
+          </p>
+        </div>
+        <div class="flex gap-16">
+          <div>
+            <span style="color:rgba(250,247,242,0.35);font-size:12px;display:block;margin-bottom:4px;">商务合作热线</span>
+            <span style="font-size:18px;">400-888-9999</span>
+          </div>
+          <div>
+            <span style="color:rgba(250,247,242,0.35);font-size:12px;display:block;margin-bottom:4px;">招商邮箱</span>
+            <span style="font-size:14px;">bd@zhongyouliang.com</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-divider mb-12"></div>
+      <div class="grid-4 mb-16" style="gap:24px;">
+        <div>
+          <h4 style="color:rgba(250,247,242,0.7);font-size:14px;margin-bottom:20px;">集团概览</h4>
+          <div style="display:flex;flex-direction:column;gap:12px;">
+            <a href="about.html">企业简介</a>
+            <a href="history.html">发展历程</a>
+            <a href="culture.html">企业文化</a>
+            <a href="honors.html">荣誉资质</a>
+          </div>
+        </div>
+        <div>
+          <h4 style="color:rgba(250,247,242,0.7);font-size:14px;margin-bottom:20px;">产品中心</h4>
+          <div style="display:flex;flex-direction:column;gap:12px;">
+            <a href="products-medicine.html">药食同源</a>
+            <a href="products-grain.html">功能性粮油</a>
+            <a href="products-organic.html">有机农产品</a>
+            <a href="products-custom.html">定制服务</a>
+          </div>
+        </div>
+        <div>
+          <h4 style="color:rgba(250,247,242,0.7);font-size:14px;margin-bottom:20px;">新闻资讯</h4>
+          <div style="display:flex;flex-direction:column;gap:12px;">
+            <a href="news.html">集团新闻</a>
+            <a href="news.html">行业动态</a>
+            <a href="news.html">媒体报道</a>
+            <a href="news.html">展会活动</a>
+          </div>
+        </div>
+        <div>
+          <h4 style="color:rgba(250,247,242,0.7);font-size:14px;margin-bottom:20px;">商务合作</h4>
+          <div style="display:flex;flex-direction:column;gap:12px;">
+            <a href="cooperation.html">招商加盟</a>
+            <a href="supplier.html">供应商入口</a>
+            <a href="contact.html">联系方式</a>
+            <a href="feedback.html">投诉建议</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-divider mb-6"></div>
+      <div style="display:flex;justify-content:space-between;align-items:center;">
+        <p style="color:rgba(250,247,242,0.25);font-size:12px;">&copy; 2025 中优粮集团 版权所有</p>
+        <p style="color:rgba(250,247,242,0.2);font-size:12px;">京ICP备XXXXXXXX号-1</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>
+// Highlight current nav item
+const currentPage = location.pathname.split('/').pop();
+document.querySelectorAll('.nav-links > a, .dropdown > a').forEach(a => {
+  if (a.getAttribute('href') === currentPage) a.style.color = '#B85C38';
+});
+</script>
+</body>
+</html>
